@@ -1,0 +1,17 @@
+/* 2_postList */
+.container2 {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: black; 
+}
+
+.content2 {
+    height: 1080px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    justify-items: center;
+    background-color:  gainsboro;
+    margin-bottom: 50px;
+}

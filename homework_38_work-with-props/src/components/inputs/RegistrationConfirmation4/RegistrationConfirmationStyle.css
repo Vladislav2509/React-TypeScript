@@ -1,0 +1,70 @@
+/* Registration Confirmation */
+.container4 {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    background-color: black; 
+}
+
+.content4 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: gainsboro;
+    margin-bottom: 50px;
+}
+
+.registration_confirmation {
+    width: 700px;
+    height: 700px;
+    margin-top: 10px;
+    background: url(../../../components/images/white_fon_700.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.folder2 {
+    margin-top: 25px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.activate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.registration2 {
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    color: blue;
+}
+
+.activate_account {
+    width: 300px;
+    height: 110px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.gmail {
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+}
+
+.home_button {
+    width: 185px;
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: blue;
+    color: white;
+}

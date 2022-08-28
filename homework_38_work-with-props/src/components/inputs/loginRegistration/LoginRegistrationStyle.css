@@ -1,0 +1,108 @@
+/* 3_LoginRegistration */
+.container3 {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    background-color: black; 
+}
+
+.content3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: gainsboro;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.item_login {
+    width: 700px;
+    height: 700px;
+    margin-top: 10px;
+    background: url(../../../components/images/white_fon_600.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.folder {
+    margin-top: 25px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.login_and_registration {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.login {
+    text-decoration: none;
+    color: blue;   
+}
+
+.registration {
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+}
+
+
+/* item_email_and_password */
+.items2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.email {
+    width: 185px;
+    height: 60px;
+    font-size: 20px;
+}
+
+input {
+    width: 175px;
+    height: 25px;
+    border-radius: 25px;
+    list-style: blue;
+}
+
+.password {
+    width: 185px;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+/* item_button-login */
+.login_button {
+    width: 185px;
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+
+/* item_forgot-password  */
+.forgot {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.reset {
+    text-decoration: none;
+    color: blue;
+}
