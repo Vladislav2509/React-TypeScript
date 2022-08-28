@@ -1,0 +1,72 @@
+/* Succsess */
+.container2 {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: gainsboro;
+    margin-bottom: 50px;
+}
+
+.block {
+    width: 700px;
+    height: 700px;
+    background: url(../../images/white_fon_600.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.folder2 {
+    margin-top: 25px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.itemsSuccsess {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.SuccsessStyle {
+    font-weight: 600;
+    font-size: 25px;
+    color: blue
+}
+
+.itemEmail {
+    display: flex;
+    justify-content: center;
+}
+
+.emailConfirmed {
+    width: 140px;
+    height: 70px;
+    display: flex;
+    text-align: center;
+}
+
+
+/* item_button-login */
+.itemButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.login_button2 {
+    width: 185px;
+    height: 35px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
