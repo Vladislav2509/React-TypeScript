@@ -1,0 +1,27 @@
+.containerAddPost {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+.contentAddPost {
+    width: 1120px;
+    height: 791px;
+    margin: 0 auto;
+    /* background-color: blue; */
+}
+
+.titleuURLWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleuURL {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputTitle {
+    width: 544px;
+    height: 56px;
+}

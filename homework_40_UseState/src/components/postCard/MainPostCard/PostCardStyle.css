@@ -1,0 +1,165 @@
+/* 1_PostCard */
+.containerMainPostCard {
+    width: 100%;
+    max-width: 1120px;
+    /* margin: auto; */
+    /* background-color: aqua; */
+}
+
+.contentMainPostCard {
+    display: flex;
+    height: 600px;
+    margin-top: 80px;
+    /* background-color: pink; */
+}
+
+.h1Blog{
+    position: absolute;
+    margin: 0;
+    /* margin-top: 70px; */
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.wrapperMainPostCard {
+    width: 736px;
+    height: 452px;
+    margin-top: 150px;
+    /* background-color: green; */
+}
+
+.contentTextAndImage {
+    display: flex;
+}
+
+.contentTextAstronauts {
+    width: 448px;
+    height: 356px;
+    /* background-color: blueviolet; */
+}
+
+.dataMainPost {
+    width: 104px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8E97;
+    /* background-color: black; */
+}
+
+.textPostOne {
+    width: 448px;
+    height: 132px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-top: 8px;
+    /* background-color: aqua; */
+}
+
+.textPostTwo {
+    width: 448px;
+    height: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8D8E97;
+    margin-top: 24px;
+    /* background-color: red; */
+}
+
+.postCardSpaceImage {
+    margin-left: 32px;
+}
+
+.spaceImage {
+    width: 256px;
+    height: 244px;
+    background: url(../../images/world.png);
+}
+
+.itemIcons {
+    width: 736px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32.5px;
+    /* background-color: red; */
+}
+
+.likes {
+    width: 145px;
+    height: 24px;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.likeUp {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    background: url(../../images/likeUp.png);
+}
+
+.likeDown {
+    width: 22px;
+    height: 22px;
+    margin-left: 55px;
+    cursor: pointer;
+    background: url(../../images/likeDown.png);
+}
+
+.bookmarkHorizontal {
+    width: 72px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+.bookmark {
+    width: 24px;
+    height: 24px;
+    background: url(../../images/bookmark.png) no-repeat;
+    cursor: pointer;
+}
+
+.horizontal {
+    width: 24px;
+    height: 24px;
+    background: url(../../images/More-Horizontal.png);
+    cursor: pointer;
+}
+
+
+/* twoLittlePostCards_PROPS */
+.twoLittlePostCards {
+    width: 352px;
+    height: 451.5px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 32px;
+    /* background-color: black; */
+}
+
+.allPosts {
+    position: absolute;
+    display: flex;
+    gap: 32px; 
+}
+
+.allPosts2 {
+    position: absolute;
+    display: flex;
+    gap: 32px; 
+    margin-top: 500px;
+}

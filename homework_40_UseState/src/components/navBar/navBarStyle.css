@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    height: 60px;
+    background-color: #2231AA;
+    /* position: relative; */
+    display: grid;
+    grid-template-columns: 1fr auto auto auto;  
+}
+
+.burgerNavBar {
+    width: 60px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid;
+    cursor: pointer;
+}
+
+.burgerNavBar:hover:active {
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.searchNavBar {
+    width: 60px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid;
+    cursor: pointer;
+}
+
+.searchNavBar:hover:active {
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.userhNavBar {
+    width: 60px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid;
+    cursor: pointer;
+}
+
+.userhNavBar:hover:active {
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+img {
+    width: 20px;
+    height: 20px;  
+}
+
+.logout {
+    width: 60px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid;
+    cursor: pointer;
+}
+
+.logout:hover:active {
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+
+

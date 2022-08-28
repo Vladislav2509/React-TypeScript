@@ -1,0 +1,32 @@
+/* PostList */
+.containerPostLists {
+    max-width: 1120px;
+    margin: 0 auto;
+    /* background-color: aqua;  */
+    display: flex;
+    flex-direction: column;
+}
+
+/* .PostListsAllPosts {
+    position: absolute;
+    display: flex;
+    gap: 32px; 
+    margin-top: 1200px;
+} */
+
+.littlePostCard {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 32px;
+}
+
+
+
+
+
+
+
+
+
+

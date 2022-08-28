@@ -1,0 +1,88 @@
+.contentPostCard2 {
+    margin-top: 80px;
+    /* background-color: red; */
+}
+
+.AstronautBackground {
+    width: 352px;
+    height: 246px;
+    background: url(../../images/world.png);
+    background-size: cover;
+}
+
+.dataPost3 {
+    width: 104px;
+    height: 24px;
+    margin-top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* background-color: green; */
+}
+
+.textAstronauts {
+    width: 352px;
+    height: 56px;
+    margin-top: 8px;
+    font-size: 20px;
+    /* background-color: green; */
+}
+
+
+.itemIcons3 {
+    width: 352px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29px;
+    /* background-color: red; */
+}
+
+.likes3 {
+    width: 145px;
+    height: 24px;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.likeUp3 {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    background: url(../../images/likeUp.png);
+}
+
+.likeDown3 {
+    width: 22px;
+    height: 22px;
+    margin-left: 55px;
+    cursor: pointer;
+    background: url(../../images/likeDown.png);
+}
+
+.bookmarkHorizontal3 {
+    width: 72px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+.bookmark3 {
+    width: 24px;
+    height: 24px;
+    background: url(../../images/bookmark.png) no-repeat;
+    cursor: pointer;
+}
+
+.horizontal3 {
+    width: 24px;
+    height: 24px;
+    background: url(../../images/More-Horizontal.png);
+    cursor: pointer;
+}
+
+
+
