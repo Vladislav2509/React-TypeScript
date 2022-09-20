@@ -1,9 +1,9 @@
 .contentSidebar {
+    position: fixed;
     width: 20%;
     height: 100%;
     margin-top: 60px;
-    position: absolute;
-    background-color: black;
+    background-color: #2F4050;   
 }
 
 .menuSidebar {

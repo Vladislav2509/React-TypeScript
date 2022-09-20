@@ -2,15 +2,22 @@
     box-sizing: border-box;
 }
 
-.header {
+.headerNavBar {
+    width: 100%;
     height: 60px;
+    z-index: 1;
     background-color: #2231AA;
-    /* position: relative; */
+    position: fixed;
     display: grid;
-    grid-template-columns: 1fr auto auto auto;  
+    grid-template-columns: 1fr  auto auto auto auto auto;  
 }
 
-.burgerNavBar {
+.burgerAndUserNameNavBar {
+    display: flex;
+    align-items: center;
+}
+
+.burgerImgNavBar {
     width: 60px;
     height: 100%;
     display: flex;
@@ -24,7 +31,16 @@
     background-color: rgb(255, 255, 255, 0.1);
 }
 
-.searchNavBar {
+.userEmailNavBar {
+    margin-left: 50px;
+}
+
+.userTitleEmailNavBar {
+    font-size: 21px;
+    color: #fff;
+}
+
+.userNavBar {
     width: 60px;
     height: 100%;
     display: flex;
@@ -34,21 +50,7 @@
     cursor: pointer;
 }
 
-.searchNavBar:hover:active {
-    background-color: rgb(255, 255, 255, 0.1);
-}
-
-.userhNavBar {
-    width: 60px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-left: 1px solid;
-    cursor: pointer;
-}
-
-.userhNavBar:hover:active {
+.userNavBar:hover:active {
     background-color: rgb(255, 255, 255, 0.1);
 }
 
@@ -57,7 +59,7 @@ img {
     height: 20px;  
 }
 
-.logout {
+.logoutNavBar {
     width: 60px;
     height: 100%;
     display: flex;
@@ -67,9 +69,12 @@ img {
     cursor: pointer;
 }
 
-.logout:hover:active {
+.logoutNavBar:hover:active {
     background-color: rgb(255, 255, 255, 0.1);
 }
+
+
+
 
 
 

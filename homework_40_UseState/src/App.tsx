@@ -1,12 +1,9 @@
 import React from 'react';
-
 import {Routes, Route } from 'react-router-dom';
 import {NavBar} from './components/navBar/NavBar';
-// import {LoginRegistration} from './components/loginRegistration/LoginRegistration';
-// import {Sidebar} from './components/pageSidebar/Sidebar';
-import {MainPage} from './components/mainPage/MainPage';
-import {PostLists} from './components/PostLists/PostLists';
-import {AddPost} from './components/postCard/AddPost/AddPost';
+import {HomePage} from './components/HomePage/HomePage';
+import {PostLists} from './components/postCard/trainingPostCard/PostLists/PostLists';
+
 
 
 // ROUTES OF LOGIN_FIREBASE
@@ -15,11 +12,13 @@ import {AddPost} from './components/postCard/AddPost/AddPost';
 // import RegisterPage from './components/loginRegistration/newLoginPages/RegisterPage';
 
 
-import { Login } from './components/loginRegistration/LoginRight/Login/Login';
-import { Registration  } from './components/loginRegistration/LoginRight/Registration/Registration';
-import { RegistrationConfirmation } from './components/loginRegistration/LoginRight/RegistrationConfirmation/RegistrationConfirmation';
+import { Login } from './components/Authorization/LoginRight/Login/Login';
+import { Registration  } from './components/Authorization/LoginRight/Registration/Registration';
+import { RegistrationConfirmation } from './components/Authorization/LoginRight/RegistrationConfirmation/RegistrationConfirmation';
 import { ProtectedRoute } from './components/ProtectedRoute/ProtectedRoute';
-import { ResetPassword } from './components/loginRegistration/LoginRight/reset-password/reset-password';
+import { ResetPassword } from './components/Authorization/LoginRight/reset-password/reset-password';
+import { AddPost } from './components/postCard/AddPost/AddPost';
+import { PostCardFetch } from './components/postCard/MainPosts-Fetch/PostCard-Fetch/PostCardFetch';
 
 
 
@@ -31,12 +30,11 @@ export const App = () => {
       
             <Route path="/all_post" element={
                 <ProtectedRoute>
-                    <PostLists />
+                    <PostCardFetch post={undefined} />
+                    {/* <MainPage /> */}
                 </ProtectedRoute>
                 }>
             </Route>
-
-            <Route path="/home" element={<MainPage />}/>
         
             {/* <Route path="/all_post" element={<PostLists />}/> */}
 
@@ -47,28 +45,27 @@ export const App = () => {
                 }>
             </Route>
 
+            <Route path="/my_first_posts" element={
+                <ProtectedRoute>
+                    <PostLists />
+                </ProtectedRoute>
+                }>
+            </Route>
+
             <Route path="/user" element={<Login />}/>
+
+            <Route path="/home" element={<HomePage />}/>
 
             <Route path="/Login" element={<Login />}/>
 
             <Route path="/registration" element={<Registration />}></Route>
 
-            {/* <Route path="/SignInInput" element={<MainPage />}></Route> */}
+            <Route path="/registrationConfirmation" element={<RegistrationConfirmation email={''}/>}></Route>
 
-            <Route path="/registrationConfirmation" element={<RegistrationConfirmation/>}></Route>
-
-            <Route path="/backToHome" element={<MainPage/>}></Route>
+            <Route path="/backToHome" element={<HomePage/>}></Route>
 
             <Route path="/reset_password" element={<ResetPassword />}></Route>
-        
-        
-
-            {/* LOGIN_FIREBASE */}
-            {/* <Route path="/user" element={<LoginPage />} />
-
-            <Route path="/login" element={<LoginPage />} />
-            
-            <Route path="/register" element={<RegisterPage />} /> */}
+    
       
         </Route>
       

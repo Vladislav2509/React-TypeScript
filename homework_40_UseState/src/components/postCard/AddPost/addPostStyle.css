@@ -1,27 +1,49 @@
 .containerAddPost {
-    width: 1200px;
-    margin: 0 auto;
-    /* background-color: aqua; */
-}
-
-.contentAddPost {
-    width: 1120px;
-    height: 791px;
-    margin: 0 auto;
-    /* background-color: blue; */
-}
-
-.titleuURLWrapper {
+    margin: auto;
+    padding: 0 16px 0 16px;
     display: flex;
-    justify-content: space-between;
+    width: 100%;
 }
 
-.titleuURL {
+.wrapperAddPost {
+    margin: 100px auto 0 auto;
+    width: 1100px;
+}
+
+.formAddPost {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.wrapper_Label_Input-AddPost {
     display: flex;
     flex-direction: column;
+    margin-bottom: 40px;
 }
 
-.inputTitle {
-    width: 544px;
-    height: 56px;
+.labelAddPost {
+    margin-bottom: 10px;
+}
+
+.inputAddPost {
+    padding: 18px;
+}
+
+.submitButtonAddPost {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #2231aa;
+    border-radius: 2px;
+    padding: 18px;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    opacity: 0.7s;
+}
+
+.submitButtonAddPost:hover {
+    color: #2231aa;
+    background-color: green;
 }

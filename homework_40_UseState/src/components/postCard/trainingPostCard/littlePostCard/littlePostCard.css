@@ -1,0 +1,88 @@
+.containerLittlePostCard {
+    width: 352px;
+    height: 206px;
+    /* background-color: yellow; */
+}
+
+.astronautFotoLittlePostCard {
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    margin-left: 256px;
+}
+
+.dataPostLittlePostCard {
+    width: 104px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* background-color: green; */
+}
+
+.textPostLittlePostCard {
+    width: 222px;
+    height: 84px;
+    margin-top: 8px;
+    /* background-color: red; */
+}
+
+
+/* itemIcons */
+.itemIconsLittlePostCard {
+    width: 352px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25.5px;
+    /* background-color: red; */
+}
+
+.likesLittlePostCard {
+    width: 145px;
+    height: 24px;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.likeUpLittlePostCard {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    background: url(../../../../images/likeUp.png);
+}
+
+.likeDownLittlePostCard {
+    width: 22px;
+    height: 22px;
+    margin-left: 55px;
+    cursor: pointer;
+    background: url(../../../../images/likeDown.png);
+}
+
+.bookmarkHorizontalLittlePostCard {
+    width: 72px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+.bookmarkLittlePostCard {
+    width: 24px;
+    height: 24px;
+    background: url(../../../../images/bookmark.png) no-repeat;
+    cursor: pointer;
+}
+
+.horizontalLittlePostCard {
+    width: 24px;
+    height: 24px;
+    background: url(../../../../images/More-Horizontal.png);
+    cursor: pointer;
+}

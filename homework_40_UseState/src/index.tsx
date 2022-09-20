@@ -5,8 +5,10 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import {Provider} from 'react-redux';
 import './index.css';
 import {App} from './App';
-import { store } from './components/toolkitRedux/Index';
-import { AuthProvider } from './components/hooks/useAuth';
+// import { store } from './components/toolkitRedux/Index';
+import { store } from './store';
+// import { rootStore } from './store/StasfetchSlices/rootStore';
+import { AuthProvider } from './hooks/useAuth';
 
 // import './firebase';
 

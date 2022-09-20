@@ -1,0 +1,54 @@
+.cardsWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    background-color: #fff;
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+    border-radius: 4px;
+}
+
+.cardsImg {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    object-fit: cover;
+}
+
+.cardText {
+    margin-top: 15px;
+    max-width: 400px;
+    font-size: 16px;
+}
+
+.cardDate {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #8d8e97;
+    margin-bottom: 15px;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.like_dislike {
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.cardLike {
+    background-color: transparent;
+    border: none;
+}
+
+.cardDislike {
+    background-color: transparent;
+    border: none;
+}
+
+.cardBookmark {
+    background-color: transparent;
+    border: none;
+}

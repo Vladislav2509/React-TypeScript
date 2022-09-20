@@ -1,0 +1,88 @@
+.contentBigPostCard {
+    margin-top: 80px;
+    /* background-color: red; */
+}
+
+.AstronautBackgroundBigPostCard {
+    width: 352px;
+    height: 246px;
+    background: url(../../../../images/world.png);
+    background-size: cover;
+}
+
+.dataBigPostCard{
+    width: 104px;
+    height: 24px;
+    margin-top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* background-color: green; */
+}
+
+.textAstronautsBigPostCard {
+    width: 352px;
+    height: 56px;
+    margin-top: 8px;
+    font-size: 20px;
+    /* background-color: green; */
+}
+
+
+.itemIconsBigPostCard {
+    width: 352px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29px;
+    /* background-color: red; */
+}
+
+.likesBigPostCard {
+    width: 145px;
+    height: 24px;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.likeUpBigPostCard {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    background: url(../../../../images/likeUp.png);
+}
+
+.likeDownBigPostCard {
+    width: 22px;
+    height: 22px;
+    margin-left: 55px;
+    cursor: pointer;
+    background: url(../../../../images/likeDown.png);
+}
+
+.bookmarkHorizontalBigPostCard {
+    width: 72px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+.bookmarkBigPostCard {
+    width: 24px;
+    height: 24px;
+    background: url(../../../../images/bookmark.png) no-repeat;
+    cursor: pointer;
+}
+
+.horizontalBigPostCard {
+    width: 24px;
+    height: 24px;
+    background: url(../../../../images/More-Horizontal.png);
+    cursor: pointer;
+}
+
+
+
